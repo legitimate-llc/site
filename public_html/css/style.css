@@ -3,7 +3,7 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	background-color: #0c2635; 
+	background-color: #0c2635;
 	margin: 0;
 }
 img {
@@ -51,7 +51,7 @@ img {
 }
 #navigation li.first {
 	margin-left: 0;
-	
+
 }
 #navigation li.selected {
 	background-color: #b7c2c8;
@@ -264,12 +264,13 @@ img {
 	float: left;
 	width: 315px;
 }
-#main ul li a {
+#main ul li span {
 	color: #fdfffa;
 	display: block;
 	height: 114px;
 	margin: 0 40px 0 0;
 	text-decoration: none;
+        text-align: left;
 }
 #main ul li img {
 	float: left;
@@ -314,7 +315,7 @@ img {
 	line-height: 20px;
 	margin-bottom: 10px;
 }
-#sidebar ul li span a {
+#sidebar ul li span span {
 	background: url(../images/bg-comment.gif) no-repeat 7px 3px;
 	color: #fffffb;
 	display: inline-block;
